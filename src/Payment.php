@@ -239,7 +239,8 @@ class Payment {
       "WMI_EXPIRED_DATE" => "expiredDate",
       "WMI_CREATE_DATE" => "createDate",
       "WMI_UPDATE_DATE" => "updateDate",
-      "WMI_ORDER_STATE" => "state"
+      "WMI_ORDER_STATE" => "state",
+      "WMI_PTENABLED" => "WebMoneyUSD",
     ];
     $this->customParameters = [];
     foreach($data as $k => $v) {
