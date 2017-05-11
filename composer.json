@@ -1,10 +1,10 @@
 {
-    "name": "calibr/walletone",
+    "name": "Pk1z/walletone",
     "description": "WalletOne API intergation",
     "authors": [
         {
-            "name": "calibr",
-            "email": "awcalibr@gmail.com"
+            "name": "Pk1z",
+            "email": "pk1z@localhost"
         }
     ],
     "require": {
@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Calibr\\WalletOne\\": "src/"
+            "Pk1z\\WalletOne\\": "src/"
         }
     }
 }

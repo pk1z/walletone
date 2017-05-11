@@ -1,8 +1,8 @@
 <?php
 
-namespace Calibr\WalletOne;
+namespace Pk1z\WalletOne;
 
-use Calibr\WalletOne\Exception\ValidationFailedException;
+use Pk1z\WalletOne\Exception\ValidationFailedException;
 
 class Payment {
   private $submitURL = "https://wl.walletone.com/checkout/checkout/Index";

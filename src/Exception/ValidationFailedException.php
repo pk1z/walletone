@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Calibr\WalletOne\Exception;
+namespace Pk1z\WalletOne\Exception;
 
 class ValidationFailedException extends \Exception {
   public function __construct($message = '', $code = 0, \Exception $previous = null) {

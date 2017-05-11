@@ -2,7 +2,7 @@
 
 require("./src/Payment.php");
 
-use Calibr\WalletOne\Payment;
+use Pk1z\WalletOne\Payment;
 
 class SignatureTest extends PHPUnit_Framework_TestCase
 {
