@@ -192,7 +192,7 @@ class Payment {
     if($this->utf8) {
       $formHtml[] = '<meta charset="utf-8">';
     }
-    $formHtml[] = '<form id="'.$options["formID"].'" method="post" action="https://wl.walletone.com/checkout/checkout/Index" '.($this->utf8 ? 'accept-charset="UTF-8"' : '').'>';
+    $formHtml[] = '<form name="walletForm" "id="'.$options["formID"].'" method="post" action="https://wl.walletone.com/checkout/checkout/Index" '.($this->utf8 ? 'accept-charset="UTF-8"' : '').'>';
     foreach($params as $k => $v) {
       $formHtml[] = '<input type="hidden" name="'.$k.'" value="'.htmlspecialchars($v).'"/>';
     }
